@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+#task-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#task-list li.completed {
+  text-decoration: line-through;
+}
